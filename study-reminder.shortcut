@@ -1,0 +1,37 @@
+{
+  "WFWorkflowClientRelease": "2.1",
+  "WFWorkflowIcon": {
+    "WFWorkflowIconGlyphNumber": 59510,
+    "WFWorkflowIconImageData": null,
+    "WFWorkflowIconStartColor": 4278243583
+  },
+  "WFWorkflowImportQuestions": [],
+  "WFWorkflowInputContentItemClasses": [],
+  "WFWorkflowTypes": [
+    "NCWidget",
+    "WatchKit"
+  ],
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.geteventattendees",
+      "WFWorkflowActionParameters": {}
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.createreminder",
+      "WFWorkflowActionParameters": {
+        "WFReminderTitle": {
+          "Value": "从日历事件生成提醒事项"
+        },
+        "WFReminderNotes": {
+          "Value": "事件内容将自动写入"
+        },
+        "WFReminderList": {
+          "Value": "复旦备考打卡"
+        }
+      }
+    }
+  ],
+  "WFWorkflowClientVersion": "754",
+  "WFWorkflowMinimumClientVersion": 411,
+  "WFWorkflowName": "Study Reminder Auto"
+}
